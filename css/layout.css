@@ -285,7 +285,7 @@ body, html {
 
 /* Phone landscape and bigger */
 
-@media (min-width: 370px) {
+@media (min-width: 320px) {
     .px-float-left-small {
         float: left;
     }

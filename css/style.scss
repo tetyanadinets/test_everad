@@ -768,12 +768,33 @@ body {
 	}
 
 	.px-header {
-		position: static;
 
 		&__items {
 			display: block;
 
 		}
+
+		&_active {
+			background: rgba(1,1,1,.7);
+			padding: 10px 0;
+
+		.px-header__items {
+			display: none;
+		}
+
+		.px-header__logo {
+			padding-bottom: 20px;
+		}
+
+		.px-logo {
+			margin-bottom: 0;
+
+			img {
+				max-height: 40px;
+			}
+		}
+
+	}
 	}
 
 	.px-logo {
@@ -783,7 +804,7 @@ body {
 	}
 
 	.px-poster {
-		padding-top: 0;
+		padding-top: 130px;
 		background-position: 140px 9%;
 
 		&__sale {
@@ -866,7 +887,7 @@ body {
 
 			&_left{
 				margin: 0;
-				margin-bottom: 15px;
+				margin-bottom: 5px;
 
 				&:before {
 					height: 27px;
@@ -882,7 +903,13 @@ body {
 		}
 	}
 
+	.px-logo {
+		margin-bottom: 5px;
+	}
+
 	.px-poster {
+		padding-top: 140px;
+
 		background-position: 135px 8%;
 
 		&__product {
@@ -989,7 +1016,7 @@ body {
 		background-image: none;
 
 		&__img {
-			max-height: 130px;
+			max-height: 110px;
 		}
 	}
 
